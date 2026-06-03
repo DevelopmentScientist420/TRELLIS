@@ -1,0 +1,141 @@
+{
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  "accessors": [
+    {
+      "componentType": 5125,
+      "type": "SCALAR",
+      "bufferView": 0,
+      "count": 377076,
+      "max": [
+        86669
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "byteOffset": 0,
+      "bufferView": 1,
+      "count": 86670,
+      "max": [
+        0.462051123380661,
+        0.499918133020401,
+        0.4521641433238983
+      ],
+      "min": [
+        -0.491504430770874,
+        -0.4973941743373871,
+        -0.4495827853679657
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "byteOffset": 0,
+      "bufferView": 2,
+      "count": 86670,
+      "max": [
+        0.999567449092865,
+        1
+      ],
+      "min": [
+        0,
+        0.000431060791015625
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "geometry_0",
+      "extras": {
+        "processed": true
+      },
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "uri": "sample_img0.png"
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "roughnessFactor": 1
+      },
+      "doubleSided": false
+    }
+  ],
+  "nodes": [
+    {
+      "name": "world",
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "geometry_0",
+      "mesh": 0
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "sample_data.bin",
+      "byteLength": 3241704
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1508304
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1508304,
+      "byteLength": 1040040
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2548344,
+      "byteLength": 693360
+    }
+  ]
+}
